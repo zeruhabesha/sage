@@ -1,0 +1,23 @@
+iframe {
+  position: relative;
+  width: 420px;
+  height: 320px;
+  background: rgb(157, 9, 9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: inline-block;
+  /* margin-top: 10px; */
+  margin-bottom: 20px;
+}
+
+.webhead {
+  margin-top: 100px;
+  text-align: center;
+  color: brown;
+}

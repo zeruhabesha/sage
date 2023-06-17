@@ -1,0 +1,62 @@
+/* @import url("https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"); */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.otherbuttonform {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f3f7fe;
+  color: #a42e0a;
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  height: 45px;
+  transition: 0.3s;
+  margin: 40px;
+  margin-left: 100px;
+  padding: 6px;
+}
+
+.otherbuttonform:hover {
+  background-color: #a21d0c;
+  box-shadow: 0 0 0 5px #f6c43b5f;
+  color: #fff;
+}
+hr {
+  color: black;
+}
+#tablebuttons {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f3f7fe;
+  color: #a42e0a;
+  border: none;
+  border-radius: 8px;
+  width: 160px;
+  transition: 0.3s;
+  padding: 6px;
+}
+#tablebuttons:hover {
+  background-color: #a21d0c;
+  box-shadow: 0 0 0 5px #f6c43b5f;
+  color: #fff;
+}
+.main-container {
+  margin-left: 100px;
+}

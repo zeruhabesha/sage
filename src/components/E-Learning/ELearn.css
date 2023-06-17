@@ -1,0 +1,154 @@
+/* sidebar */
+.Encard {
+  width: 300px;
+  height: 274px;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline-table;
+  margin-left: 30px;
+}
+
+.Encard-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.Encard-image:hover {
+  transform: scale(0.98);
+}
+
+.Encategory {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(222, 80, 28);
+  padding: 10px 7px 0;
+  letter-spacing: 2px;
+}
+
+.Encategory:hover {
+  cursor: pointer;
+}
+
+.Enheading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.Enheading:hover {
+  cursor: pointer;
+}
+
+.Enauthor {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.Enname {
+  font-weight: 600;
+  display: inline;
+}
+
+.Enname:hover {
+  cursor: pointer;
+}
+.enln {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  color: brown;
+}
+
+.enln:hover {
+  color: cyan;
+  text-decoration: none;
+}
+.enpic {
+  width: 100%;
+  height: 200px;
+}
+.EnPara {
+  margin-top: 20px;
+  padding: 60px;
+  text-align: justify;
+}
+.Enheads {
+  margin-top: 100px;
+  text-align: justify;
+  text-align: center;
+  margin-bottom: -60px;
+  color: brown;
+}
+
+/* bootm part */
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.EnSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  gap: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.Entext-shadow {
+  font-size: 2.5em;
+  text-decoration: underline;
+  @media (max-width: 768px) {
+    font-size: 1.3em;
+  }
+}
+
+.Entext-shadow {
+  font-style: italic;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 1px;
+  text-shadow: 2px 2px 10px rgb(255, 153, 0);
+  transition: all 0.1s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.2em;
+  animation: flicker 0.5s ease-in-out infinite alternate;
+}
+
+.Entext-shadow:hover {
+  color: #fff;
+}
+
+.Entags small {
+  @media (max-width: 768px) {
+    font-size: 0.5em;
+  }
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px rgb(255, 153, 0);
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px rgb(255, 153, 0);
+  }
+}

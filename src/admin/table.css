@@ -1,0 +1,34 @@
+
+/* @import url('https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css'); */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    /* width:100%; */
+  }
+  td{
+    /* width:100%; */
+    overflow: auto;
+  }
+  th {
+    background-color: #eee;
+    font-weight: bold;
+    /* width:50%; */
+  }
+  
+  tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+
+  .dropdown{
+padding-left: 0%;
+  }
+  
+  .btns{
+    padding:5px;
+  }
